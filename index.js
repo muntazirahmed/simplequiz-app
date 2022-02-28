@@ -24,4 +24,5 @@ const quizdata=[
     d:'maharastra',
     correct:'c'
     }
-]
+];
+
