@@ -45,6 +45,13 @@ function loadquiz(){
 }
 submit.addEventListener('click',function (){
     currentquiz++;
-    loadquiz()
+
+        if (currentquiz< quizdata.length){
+
+            loadquiz()
+        }
+        else{
+            alert("quiz finished !!!")
+        }
     
 });
